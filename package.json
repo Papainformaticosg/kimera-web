@@ -1,0 +1,14 @@
+{
+  "name": "kimera-web",
+  "version": "1.0.0",
+  "description": "Portal Web Kimera.",
+  "scripts": {
+    "lite": "lite-server --port 5000",
+    "start": "npm run lite"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "lite-server": "^2.3.0"
+  }
+}
