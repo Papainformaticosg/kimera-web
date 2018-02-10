@@ -34,11 +34,13 @@
 				<div class="container">
 					<div class="navbar-header">
 						<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                    </button>
-						<a class="navbar-brand" href="index.html"><span>M</span>oderna</a>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+					</button>
+						<a class="navbar-brand" href="index.html">
+							<img src="img/LogoKimera.png" alt="">
+						</a>
 					</div>
 					<div class="navbar-collapse collapse ">
 						<ul class="nav navbar-nav">
@@ -46,26 +48,23 @@
 							<li class="dropdown">
 								<a href="#" class="dropdown-toggle " data-toggle="dropdown" data-hover="dropdown" data-delay="0" data-close-others="false">Sobre Nosotros<b class=" icon-angle-down"></b></a>
 								<ul class="dropdown-menu">
-									<li><a href="typography.html">¿ Por qu&eacute; kimera ?</a></li>
-									<li><a href="components.html">Nuestras Oficinas</a></li>
-									<li><a href="pricingbox.html">Nuestro Equipo</a></li>
-									<li><a href="pricingbox.html">Preguntas Frecuentes</a></li>
+									<li><a href="por-que-kimera.html">¿ Por qu&eacute; kimera ?</a></li>
+									<li><a href="oficinas.html">Nuestras Oficinas</a></li>
 								</ul>
 							</li>
 							<li class="dropdown">
 								<a href="#" class="dropdown-toggle " data-toggle="dropdown" data-hover="dropdown" data-delay="0" data-close-others="false">Servicios<b class=" icon-angle-down"></b></a>
 								<ul class="dropdown-menu">
-									<li><a href="typography.html">Plataforma de Atención Telefónica a Clientes</a></li>
-									<li><a href="components.html">Mesa de Ayuda (Help Desk)/Asistencia Remota</a></li>
-									<li><a href="pricingbox.html">Actualización de Datos</a></li>
-									<li><a href="pricingbox.html">Confirmación de Asistencia</a></li>
-									<li><a href="pricingbox.html">Encuestas de Satisfacción</a></li>
-									<li><a href="pricingbox.html">Recepcionista Virtual</a></li>
+									<li><a href="plataforma-atencion.html">Plataforma de Atención Telefónica a Clientes</a></li>
+									<li><a href="mesa-ayuda.html">Mesa de Ayuda (Help Desk)/Asistencia Remota</a></li>
+									<li><a href="actualizacion-datos.html">Actualización de Datos</a></li>
+									<li><a href="confirmacion-asistencia.html">Confirmación de Asistencia</a></li>
+									<li><a href="encuesta-satisfaccion.html">Encuestas de Satisfacción</a></li>
+									<li><a href="recepcionista-virtual.html">Recepcionista Virtual</a></li>
 								</ul>
 							</li>
-							<li><a href="portfolio.html">Tecnologia</a></li>
+							<li><a href="technology.html">Tecnologia</a></li>
 							<li><a href="contact.html">Contacto</a></li>
-							<li><a href="blog.html">Blog</a></li>
 						</ul>
 					</div>
 				</div>
@@ -78,7 +77,7 @@
 					<div class="col-lg-12">
 						<ul class="breadcrumb">
 							<li><a href="#"><i class="fa fa-home"></i></a><i class="icon-angle-right"></i></li>
-							<li class="active">Contact</li>
+							<li class="active">Contacto</li>
 						</ul>
 					</div>
 				</div>
@@ -86,102 +85,53 @@
 		</section>
 		<section id="content">
 			<div class="map">
-				<div id="google-map" data-latitude="40.713732" data-longitude="-74.0092704"></div>
+				<div id="google-map" data-latitude="-12.111984" data-longitude="-77.001799"></div>
 			</div>
 			<div class="container">
 				<div class="row">
 					<div class="col-md-8 col-md-offset-2">
-						<h4>Get in touch with us by filling <strong>contact form below</strong></h4>
+						<h4>Contáctenos</strong></h4>
 
-						<div id="sendmessage">Your message has been sent. Thank you!</div>
+						<div id="sendmessage">Tu mensaje ha sido enviado. ¡Gracias!</div>
 						<div id="errormessage"></div>
 						<form action="" method="post" role="form" class="contactForm">
 							<div class="form-group">
-								<input type="text" name="name" class="form-control" id="name" placeholder="Your Name" data-rule="minlen:4" data-msg="Please enter at least 4 chars" />
+								<input type="text" name="name" class="form-control" id="name" placeholder="Nombre" data-rule="minlen:4" data-msg="Por favor ingrese al menos 4 caracteres" />
 								<div class="validation"></div>
 							</div>
 							<div class="form-group">
-								<input type="email" class="form-control" name="email" id="email" placeholder="Your Email" data-rule="email" data-msg="Please enter a valid email" />
+								<input type="email" class="form-control" name="email" id="email" placeholder="Correo electronico" data-rule="email" data-msg="Por favor introduzca una dirección de correo electrónico válida" />
 								<div class="validation"></div>
 							</div>
 							<div class="form-group">
-								<input type="text" class="form-control" name="subject" id="subject" placeholder="Subject" data-rule="minlen:4" data-msg="Please enter at least 8 chars of subject" />
+								<input type="text" class="form-control" name="subject" id="subject" placeholder="Asunto" data-rule="minlen:4" data-msg="Por favor ingrese al menos 8 caracteres en el asunto" />
 								<div class="validation"></div>
 							</div>
 							<div class="form-group">
-								<textarea class="form-control" name="message" rows="5" data-rule="required" data-msg="Please write something for us" placeholder="Message"></textarea>
+								<textarea class="form-control" name="message" rows="5" data-rule="required" data-msg="Por favor escribe algo para nosotros" placeholder="Mensaje"></textarea>
 								<div class="validation"></div>
 							</div>
 
-							<div class="text-center"><button type="submit" class="btn btn-theme">Send Message</button></div>
+							<div class="text-center"><button type="submit" class="btn btn-theme">Enviar Mensaje</button></div>
 						</form>
 					</div>
 				</div>
 			</div>
 		</section>
 		<footer>
-			<div class="container">
-				<div class="row">
-					<div class="col-lg-3">
-						<div class="widget">
-							<h5 class="widgetheading">Get in touch with us</h5>
-							<address>
-					<strong>Moderna company Inc</strong><br>
-					 Modernbuilding suite V124, AB 01<br>
-					 Someplace 16425 Earth </address>
-							<p>
-								<i class="icon-phone"></i> (123) 456-7890 - (123) 555-7891 <br>
-								<i class="icon-envelope-alt"></i> email@domainname.com
-							</p>
-						</div>
-					</div>
-					<div class="col-lg-3">
-						<div class="widget">
-							<h5 class="widgetheading">Pages</h5>
-							<ul class="link-list">
-								<li><a href="#">Press release</a></li>
-								<li><a href="#">Terms and conditions</a></li>
-								<li><a href="#">Privacy policy</a></li>
-								<li><a href="#">Career center</a></li>
-								<li><a href="#">Contact us</a></li>
-							</ul>
-						</div>
-					</div>
-					<div class="col-lg-3">
-						<div class="widget">
-							<h5 class="widgetheading">Latest posts</h5>
-							<ul class="link-list">
-								<li><a href="#">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</a></li>
-								<li><a href="#">Pellentesque et pulvinar enim. Quisque at tempor ligula</a></li>
-								<li><a href="#">Natus error sit voluptatem accusantium doloremque</a></li>
-							</ul>
-						</div>
-					</div>
-					<div class="col-lg-3">
-						<div class="widget">
-							<h5 class="widgetheading">Flickr photostream</h5>
-							<div class="flickr_badge">
-								<script type="text/javascript" src="http://www.flickr.com/badge_code_v2.gne?count=8&amp;display=random&amp;size=s&amp;layout=x&amp;source=user&amp;user=34178660@N03"></script>
-							</div>
-							<div class="clear">
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-			<div id="sub-footer">
+			<div id="">
 				<div class="container">
 					<div class="row">
 						<div class="col-lg-6">
 							<div class="copyright">
-								<p>&copy; Moderna Theme. All right reserved.</p>
+								<p>&copy; Kimera G &#38; C. All right reserved.</p>
 								<div class="credits">
 									<!--
-                    All the links in the footer should remain intact.
-                    You can delete the links only if you purchased the pro version.
-                    Licensing information: https://bootstrapmade.com/license/
-                    Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/buy/?theme=Moderna
-                  -->
+					All the links in the footer should remain intact.
+					You can delete the links only if you purchased the pro version.
+					Licensing information: https://bootstrapmade.com/license/
+					Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/buy/?theme=Moderna
+					-->
 									<a href="https://bootstrapmade.com/">Free Bootstrap Themes</a> by <a href="https://bootstrapmade.com/">BootstrapMade</a>
 								</div>
 							</div>

@@ -1792,7 +1792,9 @@ article img.pull-right, article .align-right{
 	margin-top:40px;
 }
 
-
+.italic{
+	font-style: italic;
+}
 /* =============================
 21. Media queries 
 ============================= */
@@ -1981,7 +1983,6 @@ article img.pull-right, article .align-right{
 		height:20px;
 		font-size:14px;
 	}
-
 
 }
 
